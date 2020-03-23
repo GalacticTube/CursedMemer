@@ -26,8 +26,8 @@ bot.on("message", async message => {
 if(command === 'curse') {
 	number = process.env.BOT_IMAGE;
 	imageNumber = Math.floor (Math.random() * (number - 1 + 1)) +1;
-	message.channel.send ( {files: ["./images/" + imageNumber + ".png"]} )
-};
+	message.channel.send ( {files: ["./images/" + imageNumber + ".png"]} );
+}
 
 bot.login(process.env.BOT_TOKEN);
 	
