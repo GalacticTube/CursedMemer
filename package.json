@@ -1,0 +1,20 @@
+{
+  "name": "CursedMemer",
+  "version": "0.1.0",
+  "description": "Cured memes sender",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "discordbot"
+  ],
+  "author": "NJ3ZNAY0MY",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^12.0.2",
+    "fs": "0.0.1-security"
+  }
+}
