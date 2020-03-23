@@ -30,4 +30,3 @@ if(command === 'curse') {
 }
 
 bot.login(process.env.BOT_TOKEN);
-	
