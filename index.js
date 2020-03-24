@@ -23,10 +23,13 @@ bot.on("message", async message => {
     const args = message.content.slice(prefix.length).trim().split(/ +/g);
     const command = args.shift().toLowerCase();
 
+
+
 if(command === 'curse') {
-	const number = process.env.BOT_IMAGE;
-	const imageNumber = Math.floor (Math.random() * (number - 1 + 1)) +1;
-	message.channel.send ( {files: ["./images/" + imageNumber + ".png"]} )
-}
+	numbio = process.env.BOT_IMAGE;
+	radoms = Math.floor (Math.random() * (numbio - 1 + 1)) +1;
+message.channel.send ( {files: ["./images/" + radoms + ".png"]} )
+        }
+
 
 bot.login(process.env.BOT_TOKEN);
