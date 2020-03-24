@@ -25,7 +25,7 @@ bot.on("message", async message => {
 
 
 
-if(command === 'curse') {
+if (msg.startsWith (prefix + "cursed")) {
 	numbio = process.env.BOT_IMAGE;
 	radoms = Math.floor (Math.random() * (numbio - 1 + 1)) +1;
 message.channel.send ( {files: ["./images/" + radoms + ".png"]} )
